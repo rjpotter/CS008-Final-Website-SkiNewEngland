@@ -1,0 +1,425 @@
+
+:root {
+    --main-bg-color: #ffffff;
+    --main-text-color: #000000;
+    --nav-text-color: #ffffff;
+    --resort-name-bg-color: #4e72a3;
+}
+
+h1,
+h2,
+h3,
+table,
+th, tr, td,
+nav a,
+header,
+footer a {
+}
+
+*{
+}
+
+main,
+article,
+section,
+aside,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+}
+.headerClass {
+    width: 100%;
+    background: url("../image/forest-header.png");
+    background-size: contain;
+}
+
+footer {
+    background: linear-gradient(120deg, var(--resort-name-bg-color), #3c587c);
+    padding: 1%;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--nav-text-color);
+    font-size: 150%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer a:hover {
+    border-radius: 5%;
+    color: var(--resort-name-bg-color);
+    background: #ffffffc2;
+}
+
+.headerContent {
+    margin: 0 auto;
+    width: 90%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1%;
+}
+
+.nav {
+
+}
+
+.activePage {
+    background: #ffffffc2;
+    border-radius: 5%;
+    color: var(--resort-name-bg-color);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--nav-text-color);
+    display: inline-block;
+    font-size: 150%;
+}
+
+nav a:hover {
+    background: #ffffffc2;
+    border-radius: 5%;
+    color: var(--resort-name-bg-color);
+}
+
+html {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+body {
+    margin: 0;
+}
+
+.mountains-page{
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 1%;
+}
+
+section h1 {
+    background: var(--resort-name-bg-color);
+    color: var(--nav-text-color);
+    text-align: center;
+    padding: .5%;
+    max-width: 25%;
+    font-size: 200%;
+    font-weight: 700;
+    border: #344c6c solid;
+}
+
+.homeHeader > h2 {
+    background: linear-gradient(120deg, var(--resort-name-bg-color), #3c587c);
+    color: var(--nav-text-color);
+    text-align: left;
+    padding: 0.5%;
+    max-width: 100%;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.home-info {
+    display: flex;
+}
+
+.home-info > p {
+    max-width: 40%;
+    font-size: 120%;
+    border: solid #3c587c;
+    padding: 1%;
+}
+
+.cannon-img, .shawnee-img {
+    display: flex;
+    max-width: 30%;
+}
+
+.cannon-img > img, .shawnee-img > img {
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+}
+
+.snowfall > h2 {
+    background: linear-gradient(120deg, var(--resort-name-bg-color), #3c587c);
+    color: var(--nav-text-color);
+    text-align: left;
+    padding: .5%;
+    max-width: 100%;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.snowfall-table > caption {
+    background: linear-gradient(120deg, var(--resort-name-bg-color), #3c587c);
+    color: var(--nav-text-color);
+    text-align: left;
+    padding: .5%;
+    max-width: 100%;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.snowfall-table {
+    border: medium solid #3c587c;
+    border-collapse: collapse;
+    max-width: 82%;
+    margin-left:8%;
+    margin-bottom: 1%;
+}
+
+table+p {
+    padding-top: 1em;
+}
+
+td,
+th {
+    border: thin dotted #3e4d42;
+    padding: 1%;
+    text-align: center;
+    min-width:.1%;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(78, 114, 163, 0.44);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(134, 162, 201, 0.48);
+}
+
+tr:hover {
+    background-color: rgba(52, 76, 108, 0.61);
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.resort-state > h2 {
+    background: var(--resort-name-bg-color);
+    color: var(--nav-text-color);
+    text-align: left;
+    padding: .5%;
+    max-width: 100%;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.name:hover, .name > a:hover {
+    background: rgba(89, 138, 197, 0.76);
+    color: #ffffff;
+}
+
+.name > a {
+    text-decoration: none;
+    color: white;
+}
+
+.resort,
+.name {
+    width:100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.name {
+    background: linear-gradient(120deg, var(--resort-name-bg-color), #3c587c);
+    color: #fff;
+    font-size: 130%;
+    height: 1.75em;
+    align-content: center;
+}
+.name > p {
+    margin-left: 2%;
+}
+
+.resort {
+    line-height: 100%;
+    font-size: 16pt;
+    text-shadow: 1px 1px 0 var(--resort-name-bg-color);
+    font-weight: 700;
+    margin-top: 2%;
+    border: var(--resort-name-bg-color) solid;
+    background: #8ecbdf40;
+    max-width: 82%;
+    margin-left: 9%;
+}
+
+.resort-button-link {
+    margin: 4px;
+    border: solid var(--resort-name-bg-color);
+    border-radius: 10%;
+    background: rgba(119, 160, 215, 0.27);
+    text-decoration: none;
+    color: var(--resort-name-bg-color);
+    padding: 1%;
+    text-align: center;
+}
+
+.mountain-info {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.resort-logo > img {
+    max-width: 100%;
+}
+.resort-stats {
+    display: flex;
+    flex-flow: wrap;
+    padding: 2%;
+    max-width: 100%;
+}
+
+.item {
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-bottom: 2%;
+}
+
+.text {
+    font-weight: normal;
+    text-shadow: none;
+    margin-top: 1%;
+    white-space: pre;
+}
+
+.heading {
+    white-space: pre;
+}
+
+.resort-button {
+    display: flex;
+    line-height: 100%;
+    font-size: 16pt;
+    text-shadow: 1px 1px 0 var(--resort-name-bg-color);
+    font-weight: 700;
+    padding: 1px;
+    margin-top: 4.5%;
+    margin-bottom: 3%;
+}
+
+.resort-logo {
+    max-width: 367px;
+    max-height: 210px;
+    padding-top: .5%;
+}
+
+.webcams-page {
+    display: flex;
+    max-width: 100%;
+}
+
+.webcam-header > p {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(120deg, var(--resort-name-bg-color), #3c587c);
+    margin-top: auto;
+}
+
+.webcam-header-text > p {
+    font-size: 150%;
+    color: var(--resort-name-bg-color);
+    text-align: center;
+}
+
+.mountain {
+    display: flex;
+    flex-flow: column;
+    max-width: 75%;
+    margin-left: 10%;
+    align-items: center;
+    margin-bottom: 1%;
+    background: #8ecbdf40;
+}
+
+.mountain-name > p {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 600;
+    color: var(--resort-name-bg-color);
+}
+
+.mountain-name {
+    display: flex;
+}
+
+.mountain-state {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.mountain-logo > img {
+    display: flex;
+    max-width: 100%;
+    background: #1400ff0f;
+}
+
+.state-name > h2 {
+    background: linear-gradient(120deg, var(--resort-name-bg-color), #3c587c);
+    color: var(--nav-text-color);
+    text-align: left;
+    padding: .5%;
+    max-width: 100%;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+footer > p {
+    color: #fff;
+}
+
+.formheader > h2 {
+    background: linear-gradient(120deg, var(--resort-name-bg-color), #3c587c);
+    color: var(--nav-text-color);
+    text-align: left;
+    padding: .5%;
+    max-width: 100%;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+#frmFavResort {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 82%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.txt, .radio, .checkbox, .submit{
+    max-width: 100%;
+    font-size: 125%;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    min-width: 90%;
+    background: #8ecbdf40;
+    border: solid thick #3c587c;
+    margin-top: 1%;
+}
+.submit legend, .radio legend, .checkbox legend, .txt legend {
+    padding: 0.5%;
+    background-color: #4e72a3;
+    color: white;
+}
+
+
